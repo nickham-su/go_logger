@@ -280,7 +280,7 @@ func freezeConfig() {
 
 // timePrefix 生成日志时间戳前缀（格式：2006-01-02 15:04:05.000000）。
 func timePrefix(now time.Time) string {
-	return now.Format("2006-01-02 15:04:05.000000")
+	return now.Format("2006/01/02 15:04:05.000000")
 }
 
 // levelString 将日志级别转换为字符串标识。
