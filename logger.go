@@ -278,7 +278,7 @@ func freezeConfig() {
 	configMu.Unlock()
 }
 
-// timePrefix 生成日志时间戳前缀（格式：2006-01-02 15:04:05.000000）。
+// timePrefix 生成日志时间戳前缀（格式：2006/01/02 15:04:05.000000）。
 func timePrefix(now time.Time) string {
 	return now.Format("2006/01/02 15:04:05.000000")
 }
